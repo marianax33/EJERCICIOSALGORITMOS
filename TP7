@@ -1,0 +1,55 @@
+/*1. Escribe un programa que haga que aparezca por pantalla un mensaje que diga
+“¡Hola Mundo!”.*/
+console.log("Hola mundo!");
+
+/*2. Escribe un programa que solicite al usuario que ingrese su nombre y luego lo
+muestre por pantalla con un mensaje de bienvenida como el siguiente “Hola
+Usuario”. Donde usuario es el nombre ingresado.*/
+
+var Nombre = prompt("Ingrese nombre");
+console.log("Hola "+Nombre);
+
+/*3. Pedir al usuario un número entero y mostrarlo en un mensaje con el valor ingresado.*/
+
+var NumeroEntero = prompt("Ingrese un número entero");
+console.log("El número ingresado es: "+ NumeroEntero);
+
+/*4. Pedir al usuario un nombre y un apellido por separados y mostrarlos en un único
+mensaje a ambos valores.*/
+
+var Nombre = prompt("Ingrese su nombre");
+var Apellido = prompt("Ingrese su apellido");
+console.log("Nombre completo: " + Nombre + " " + apellido);
+
+/*5. Pedir al usuario que ingrese dos valores enteros, y evalúe si son iguales o si son
+diferentes, mostrar el resultado en un mensaje dependiendo del caso.*/
+
+var Entero1 = prompt("Ingrese un número entero");
+var Entero2 = prompt("Ingrese otro número entero");
+
+if (Entero1==Entero2) {
+    console.log("Los números " + Entero1 + " y " + Entero2 + " son iguales");
+}else{
+    console.log("Los números " + Entero1 + " y " + Entero2 + " son diferentes");
+}
+
+/*Desafíos:
+1. Pedir al usuario dos números y calcular la suma de estos, luego mostrarlos en un
+mensaje.*/
+
+var Numero1 = prompt("Ingrese un número");
+var Numero2 = prompt("Ingrese otro número");
+let Suma=Numero1+Numero2;
+console.log("La suma de los números "+ Numero1 + " y " +Numero2 + " es " +Suma);
+
+/*2. Pedir al usuario dos números y mostrar en un mensaje la media aritmética
+(promedio) entre estos*/
+
+var Numero1 = prompt("Ingrese un número");
+var Numero2 = prompt("Ingrese otro número");
+let Promedio=(Numero1+Numero2)/2;
+console.log("El promedio entre los números "+ Numero1 + " y " +Numero2 + " es " +Promedio);
+
+
+
+
